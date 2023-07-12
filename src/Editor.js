@@ -1,14 +1,19 @@
+import React from "react";
+// Main TipTap Components & editor Initator
+import { EditorContent, useEditor } from "@tiptap/react";
+// Tiptap STraterKit
+import StarterKit from "@tiptap/starter-kit";
+// Document & Paragraph
+import Document from "@tiptap/extension-document";
+import Paragraph from "@tiptap/extension-paragraph";
+// For Link Adding
+import Link from "@tiptap/extension-link";
+// Text Styles & Formating
 import Highlight from "@tiptap/extension-highlight";
 import TextAlign from "@tiptap/extension-text-align";
 import ListItem from "@tiptap/extension-list-item";
 import TextStyle from "@tiptap/extension-text-style";
 import Underline from "@tiptap/extension-underline";
-import { EditorContent, useEditor } from "@tiptap/react";
-import StarterKit from "@tiptap/starter-kit";
-import Link from "@tiptap/extension-link";
-import Document from "@tiptap/extension-document";
-import Paragraph from "@tiptap/extension-paragraph";
-import React from "react";
 
 const MenuBar = ({ editor }) => {
   const setLink = React.useCallback(() => {
