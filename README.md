@@ -1,6 +1,8 @@
 # Tip Tap Text Editor Component
 
-### With The Help Of TipTap This is A ready Use Component with the Ablity To Customuize Apperance & Editor Actions
+![Screen Shot 2023-10-21 at 21 30 11](https://github.com/mahmoud-bebars/Tiptap_Editor_Component/assets/66588352/b7f73c66-7e10-4aa6-bec8-06febefc38ac)
+
+ With The Help Of TipTap This is A ready Use Component with the Ablity To Customuize Apperance & Editor Actions
 
 ## Refrance 
 
